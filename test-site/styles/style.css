@@ -1,0 +1,41 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif; /* 指定页面的默认字体为"Open Sans"，如果没有这个字体，则会回退到任何可用的无衬线字体（sans-serif）。 */
+  background-color: #c1efe7b0;
+}
+
+h1 {  
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #3ca10e;
+  text-shadow: 3px 3px 1px rgb(224, 169, 29);
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 0 20px 20px 20px;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+img {
+  font-size: 10px; /* 设置图片的字体大小为40像素（通常这个属性对图片没有影响） */
+  display: block;/* 将图片显示为块级元素，并使其在页面中水平和垂直居中。 */
+  margin: 0 auto;
+  width: 100px;
+}
